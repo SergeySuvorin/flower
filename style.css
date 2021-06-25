@@ -1,0 +1,428 @@
+body {
+    background-color: #B0E1EC;
+    margin: 0px;
+     } 
+     
+ * {
+    box-sizing: border-box;
+}
+
+MAIN/INDEX-PAGE
+
+header {
+    margin: 25px;
+    float: center;
+    height: 17rem;
+}
+
+#header_inner {
+    position: absolute;
+    display: flex;
+
+}
+
+.nav-menu ul {
+    align-content: center;
+    position: relative;
+    padding: 9px;
+}
+.nav-menu a:link{
+    text-decoration: none;
+}
+.nav-menu li {
+  text-align: center; 
+  display: block;    
+  color: #000000;
+  font-family: "Graphik", sans-serif;
+  font-weight: bold;
+  font-size: 500%;
+  margin-top: -25px;
+    
+}
+
+.nav-menu ul li:hover {
+  color: #fff;
+    position:relative;
+    align-content: center;
+    
+}
+
+.logo-select { 
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0rem;
+    padding-bottom: 1rem; 
+}
+
+#flower a {
+        position: relative;
+        float: none;
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+        max-height: none;
+    
+}
+.responsive {
+      max-width: 100%;
+      height: auto;
+}
+
+
+
+.logo-select:hover{
+    background-color: #000000;
+}
+
+footer {
+    position: relative;
+    float: none;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+
+ABOUT-PAGE
+
+
+#logobox1 {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+#logobox1 {
+    height: 200px;
+    margin: 20px 50px 20px;
+    float:right;
+}
+
+
+
+#flowerlogo1 {
+    position:relative;
+}
+
+
+#main-about {
+    margin: 3px;
+    float: none;
+    padding-left: 37%;
+    padding-right: 60px;
+}
+
+#about-info p{ 
+  display: block;    
+  color: #000000;
+  font-family: "Graphik", sans-serif;
+  font-weight: bold;
+  font-size: 300%;
+  margin-top: -25px;
+  word-spacing: 0px;
+}
+
+.plant1 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+CONTACT-PAGE
+
+
+
+
+
+
+SELECT-PAGE
+
+#main-select {
+    margin: 0px;
+    padding-left: 1em;
+    box-sizing: border-box;
+    float: none;
+      align-content: center;
+
+}
+
+#head-mind img{
+ position:absolute; 
+    left: 0px;
+    width: 33.3%;
+}
+
+#mussles img {
+ position:absolute;
+    left:66.6%;
+    width: 33.3%;
+
+}
+
+#organs img{
+  position:absolute;
+    left:33.3%;
+    width: 33.3%;
+}
+
+
+
+//Edit for Sergei
+
+
+
+
+.links:hover{
+color:#fff !important;
+}
+
+.nav-menu li {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #000000;
+    font-family: "Graphik", sans-serif;
+    font-weight: 900;
+   font-size: 50px;
+    margin-top: -22px;
+}
+
+
+.men{
+  background-image: url(pics/flower2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:contain;
+}
+
+.header{
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+
+}
+
+.header h2{
+line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bodys{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cart1{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width:380px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 3px solid #fff;
+  overflow: scroll;
+  height:670px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+
+
+.cart2{
+  justify-content: center;
+  align-items: center;
+  width:380px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 3px solid #fff;
+  overflow: scroll;
+  height:670px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.cart3{
+  justify-content: center;
+  align-items: center;
+  width:380px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 3px solid #fff;
+  overflow: scroll;
+  height:670px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.cart1 h3{
+font-family: "Graphik", sans-serif;
+font-size: 30px;
+font-weight:900;
+text-align: center;
+}
+
+.cart2 h3{
+font-family: "Graphik", sans-serif;
+font-size: 30px;
+font-weight:900;
+text-align: center;
+}
+
+.cart3 h3{
+font-family: "Graphik", sans-serif;
+font-size: 30px;
+font-weight:900;
+text-align: center;
+}
+
+.minde1{
+  max-width: 312px;
+  max-height: 550px;
+  margin-bottom: 100px;
+}
+
+.minde2{
+  max-width: 380px;
+  max-height: 550px;
+
+  margin:0 10% 100px;
+}
+
+.minde3{
+  max-width: 312px;
+  max-height: 550px;
+  margin-bottom: 120px;
+}
+
+.minde.img-hide{
+    opacity: 0;
+}
+.minde:hover .img-hide{
+    opacity: 1;
+    position: absolute; top: 0; left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.contacts{
+  display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.info{
+  text-align: left;
+  margin-left: 60px;
+  font-family: "Graphik", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+.about{
+  display: flex;
+  min-width: 0;
+  overflow:hidden;
+margin-left: 50px;
+margin-bottom: 50px;
+}
+.slick-prev,
+.slick-next {
+    -webkit-transform: translate(-50%, 0) rotate(90deg);
+    -ms-transform: translate(-50%, 0) rotate(90deg);
+    transform: translate(-50%, 0) rotate(90deg);
+    left: 50%;
+}
+
+.slick-prev {
+    top: -10px;
+}
+
+.slick-next {
+    top: auto;
+    bottom: -20px;
+}
+.slider{
+  margin-top:;
+  height:600px;
+  width:400px;
+  margin-bottom: 50px;
+}
+
+.slid{
+height:600px;
+width:400px;
+margin:30px;
+outline: none !important;
+}
+
+.slick-track{
+  display: block;
+  outline: none;
+}
+
+.text{
+ margin-left: 100px;
+ font-size: 35px;
+ font-weight: 900;
+ font-family: "Graphik", sans-serif;
+}
+
+.soc{
+  display:inline-block;
+  align-items: center;
+}
+
+.socs{
+  height:60px;
+  width:60px;
+}
+
+.relax{
+   max-width: 400px;
+  max-height: 600px;
+  padding-right: 50px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
